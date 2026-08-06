@@ -6,7 +6,7 @@ Part of the **MaharTech – Network Security** course.
 
 This chapter summarizes how firewalls work, how attackers try to detect and bypass them, and the different filtering technologies firewalls rely on.
 
-![Chapter 3 Infographic — Firewall Types, Attack Detection, Filtering Technologies, Bypassing Firewalls](CH03-infographic.jpg)
+![Chapter 3 Infographic — Firewall Types, Attack Detection, Filtering Technologies, Bypassing Firewalls](CH03-inforaphic.jpg)
 
 ## A. Firewall Types
 
