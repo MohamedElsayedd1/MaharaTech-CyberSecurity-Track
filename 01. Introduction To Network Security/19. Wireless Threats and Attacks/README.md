@@ -46,7 +46,7 @@ A DoS attack aims to disrupt the availability of the wireless network itself —
 
 ## 4. Rogue Access Point
 
-![Rogue Access Point being detected via scanning](task5-Rogue-AP.png)
+![Rogue Access Point being detected via scanning](task5-Rogure-AP.png)
 
 A **Rogue Access Point** is an unauthorized wireless access point connected to the network — sometimes set up by an attacker, sometimes even unintentionally by an employee. In the diagram, a **Rogue AP** is identified with:
 
