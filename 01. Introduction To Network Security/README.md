@@ -2,6 +2,8 @@
 
 A structured collection of notes, diagrams, and summaries for the **MaharTech Network Security** course. Each topic below has its own folder containing a `README.md` and the accompanying diagrams/screenshots used to explain the concept.
 
+![](cert.png)
+
 ## 📚 Course Contents
 
 ### Chapter 1 — Network Security Concepts & Design Considerations
