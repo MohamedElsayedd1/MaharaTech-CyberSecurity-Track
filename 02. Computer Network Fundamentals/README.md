@@ -1,55 +1,98 @@
-# MaharTech — Network Security
+# Computer Network Fundamentals
 
-A structured collection of notes, diagrams, and summaries for the **MaharTech Network Security** course. Each topic below has its own folder containing a `README.md` and the accompanying diagrams/screenshots used to explain the concept.
+A complete course repository covering computer networking fundamentals — from core concepts and the OSI/TCP-IP models through hands-on labs for DHCP, DNS, Remote Desktop, FTP, and Email server setup.
 
-## 📚 Course Contents
+Issued by the **Information Technology Institute (ITI) Platform** via **Mahara-Tech**.
 
-### Chapter 1 — Network Security Concepts & Design Considerations
-1. [The CIA of Security](./01.%20The%20CIA%20of%20Security)
-2. [Risk Assessment](./02.%20Risk%20Assessment)
-3. [Designing Network Security (DID)](./03.%20Designing%20Network%20Security%20%28DID%29)
-4. [Chapter 1 Summary — Network Security Concepts & Design Considerations](./04.%20Chapter%201%20Summary%20%E2%80%94%20Network%20Security%20Concepts%20%26%20Design%20Considerations)
-
-### Chapter 2 — Network Segmentation and Monitoring
-5. [Virtual LANs (VLANs)](./05.%20Virtual%20LANs%20%28VLANs%29)
-6. [Port Scanning and Tools](./06.%20Port%20Scanning%20and%20Tools)
-7. [Sniffing](./07.%20Sniffing)
-8. [Sniffing Tools (TCPDUMP, WIRESHARK)](./08.%20Sniffing%20Tools%20%28TCPDUMP%2CWIRESHARK%29)
-9. [Chapter 2 Summary — Network Segmentation and Monitoring](./09.%20Chapter%202%20Summary%20%E2%80%94%20Network%20segmentation%20and%20Monitoring)
-
-### Chapter 3 — Firewalls and Honeypots
-10. [Introduction to Firewalls](./10.%20Introduction%20to%20firewalls)
-11. [Configuring Firewall Rules](./11.%20Configuring%20Firewall%20Rules)
-12. [Bypassing Firewall](./12.%20Bypassing%20Firewall)
-13. [Chapter 3 Summary — Firewalls and Honeypots](./13.%20Chapter%203%20Summary%20%E2%80%94%20Firewalls%20and%20Honeypots)
-
-### Chapter 4 — Intrusion Detection and Prevention Systems
-14. [IDS vs IPS](./14.%20IDS%20Vs%20IPS)
-15. [IDS & IPS Monitoring Methods](./15.%20IDS%26IPS%20Monitoring%20Methods)
-16. [NIDS, NIPS Placement](./16.%20NIDS%2C%20NIPS%20Placement)
-17. [Chapter 4 Summary — Intrusion Detection and Prevention Systems](./17.%20Chapter%204%20Summary%20%E2%80%94%20Intrusion%20Detection%20And%20Prevention%20Systems)
-
-### Chapter 5 — Wireless Network Security
-18. [Wireless Security Standards](./18.%20Wireless%20Security%20Standards)
-19. [Wireless Threats and Attacks](./19.%20Wireless%20Threats%20and%20Attacks)
-20. [Chapter 5 Summary — Wireless Network Security](./Chapter%205%20Summary%20%E2%80%94%20Wireless%20Network%20Security)
-
-### Additional Topics
-- [Common Attacks](./Common%20Attacks)
+![Certificate of Completion](./cert.png)
 
 ---
 
-## 🗂️ Repo Structure
+## 📚 Course Modules
 
-Each topic folder follows the same pattern:
+### Chapter 1 — Introduction to Computer Networks
+
+| # | Module | Description |
+|---|---|---|
+| 01 | [What is a Computer Network](./01.%20What%20is%20a%20Computer%20Network) | Foundational concepts: what a computer network is and why it matters. |
+| 02 | [Network Topologies](./02.%20Network%20Topologies) | Point-to-point, bus, ring, star, and mesh topologies — trade-offs of each. |
+| 03 | [Computer Networks Categories](./03.%20Computer%20Networks%20Categories) | Classification by transmission mode, geographical area (LAN/WAN), and administration type (client/server vs peer-to-peer). |
+| 04 | [Computer Networks Devices](./04.%20Computer%20Networks%20Devices) | NICs, hubs, switches, routers, and collision/broadcast domains. |
+| 05 | [Computer Networks Devices — Access Point](./05.%20Computer%20Networks%20Devices%20%E2%80%94%20Access%20Point) | Access points, CSMA/CA, multiple SSIDs, and AP security. |
+| 06 | [Wired Transmission Media](./06.%20Wired%20transmission%20media) | Copper cabling (STP/UTP, categories) and fiber optic cables (single-mode vs multimode). |
+| 07 | [Wireless Transmission Media (Wi-Fi)](./07.%20Computer%20Networks%20%E2%80%94%20Wireless%20Transmission%20Media%20%28Wi-Fi%29) | Wi-Fi fundamentals, ISM frequency bands, and 802.11 standards. |
+| 08 | [Chapter 1 Summary](./08.%20Chapter%201%20Summary%20%E2%80%94%20Introduction%20to%20Computer%20Networks) | One-page recap of transmission media, devices, categories, and topologies. |
+
+### Chapter 2 — The OSI Model
+
+| # | Module | Description |
+|---|---|---|
+| 09 | [The OSI 7-Layer Model](./09.%20The%20OSI%207-Layer%20Model) | Detailed function breakdown of each OSI layer, Application through Physical. |
+| 10 | [Chapter 2 Summary](./10.%20Chapter%202%20Summary%20%E2%80%94%20The%207%20Layers%20of%20the%20ISO%20-%20OSI%20Model) | Visual walkthrough of encapsulation/de-encapsulation across all 7 layers. |
+
+### Chapter 3 — TCP/IP Protocol Suite
+
+| # | Module | Description |
+|---|---|---|
+| 11 | [TCP/IP Protocol Suite Model](./11.%20TCPIP%20Protocol%20Suite%20Model) | The 4-layer TCP/IP model and its encapsulation process. |
+| 12 | [Application Layer Protocols](./12.%20Overview%20of%20Key%20Application%20Layer%20Protocols%20%28TCPIP%20Model%29) | HTTP, HTTPS, FTP, SMTP, POP3, DNS, and DHCP — ports and purpose. |
+| 13 | [Transport Layer Protocols: TCP and UDP](./13.%20Transport%20Layer%20Protocols%20TCP%20and%20UDP) | TCP handshake, windowing, congestion control vs UDP's simplified operation. |
+| 14 | [IP Protocol and IPv4 Addressing](./14.%20Overview%20of%20IP%20Protocol%20and%20IPv4%20Addressing) | IP packet structure, routing tables, IPv4 classes, and private ranges. |
+| 15 | [Essential TCP/IP Commands](./15.%20Essential%20TCPIP%20Commands%20for%20Network%20Troubleshooting%20and%20Maintenance) | `ipconfig`, `arp`, `ping`, `nslookup`, `netstat`, `ftp`, `route print`. |
+| 16 | [Chapter 3 Summary](./16.%20Chapter%203%20Summary%20%E2%80%94%20TCPIP%20Protocol) | Full-stack recap from Application Layer down to Network Access Layer. |
+
+### Hands-On Labs
+
+| # | Module | Description |
+|---|---|---|
+| 17 | [DHCP Server — Installation, Scope & Configuration Lab](./17.%20DHCP%20Server%20%E2%80%94%20Installation%2C%20Scope%20%26%20Configuration%20Lab) | Installing the DHCP role, creating scopes, and configuring options on Windows Server. |
+| 18 | [DNS Lab 1 — Windows Server DNS Management](./18.%20DNS%20Lab%201%20%E2%80%94%20Windows%20Server%20DNS%20Management) | Setting up and managing a DNS server on Windows Server. |
+| 19 | [DNS Lab 2 — Secondary DNS, Zone Transfers & Conditional Forwarding](./19.%20DNS%20Lab%202%20%E2%80%94%20Secondary%20DNS%2C%20Zone%20Transfers%20%26%20Conditional%20Forwarding) | Configuring secondary DNS servers, zone transfers, and conditional forwarding. |
+| 20 | [Enabling and Configuring Remote Desktop (RDP) on Windows](./20.%20Enabling%20and%20Configuring%20Remote%20Desktop%20%28RDP%29%20on%20Windows) | Enabling RDP, managing allowed users, firewall rules, and connecting remotely. |
+| 21 | [Setting Up and Accessing an FTP Server (IIS & FileZilla Server)](./21.%20Setting%20Up%20and%20Accessing%20an%20FTP%20Server%20%28IIS%20%26%20FileZilla%20Server%29) | Configuring FTP via IIS and FileZilla Server, then connecting via SFTP client and CLI. |
+| 22 | [Setting Up an Email Server (EmailArchitect Mail System)](./22.%20Setting%20Up%20an%20Email%20Server%20%28EmailArchitect%20Mail%20System%29) | Installing EmailArchitect Server, creating domains/users, and sending/receiving test mail. |
+
+---
+
+## 🎓 Certificate
+
+- **Recipient:** Mohamed Elsayed
+- **Course:** Computer Network Fundamentals
+- **Course time:** 1 Hour
+- **Completion date:** 08/08/26
+- **Verification code:** `qoEIDsYTVv`
+- Issued by the Information Technology Institute (ITI) platform for trainees who fulfill the course requirements.
+
+---
+
+## 📁 Repository Structure
+
 ```
-<topic-name>/
-├── README.md      # Explanation of the concept, with inline diagrams
-└── *.png / *.jpg   # Diagrams and screenshots referenced in the README
+.
+├── README.md
+├── cert.png
+├── 01. What is a Computer Network/
+├── 02. Network Topologies/
+├── 03. Computer Networks Categories/
+├── 04. Computer Networks Devices/
+├── 05. Computer Networks Devices — Access Point/
+├── 06. Wired transmission media/
+├── 07. Computer Networks — Wireless Transmission Media (Wi-Fi)/
+├── 08. Chapter 1 Summary — Introduction to Computer Networks/
+├── 09. The OSI 7-Layer Model/
+├── 10. Chapter 2 Summary — The 7 Layers of the ISO - OSI Model/
+├── 11. TCPIP Protocol Suite Model/
+├── 12. Overview of Key Application Layer Protocols (TCPIP Model)/
+├── 13. Transport Layer Protocols TCP and UDP/
+├── 14. Overview of IP Protocol and IPv4 Addressing/
+├── 15. Essential TCPIP Commands for Network Troubleshooting and Maintenance/
+├── 16. Chapter 3 Summary — TCPIP Protocol/
+├── 17. DHCP Server — Installation, Scope & Configuration Lab/
+├── 18. DNS Lab 1 — Windows Server DNS Management/
+├── 19. DNS Lab 2 — Secondary DNS, Zone Transfers & Conditional Forwarding/
+├── 20. Enabling and Configuring Remote Desktop (RDP) on Windows/
+├── 21. Setting Up and Accessing an FTP Server (IIS & FileZilla Server)/
+└── 22. Setting Up an Email Server (EmailArchitect Mail System)/
 ```
 
-## 📌 About
-
-These notes are based on the **MaharTech (Mahara-Tech.gov.eg) Network Security** curriculum, reorganized chapter-by-chapter for easier review and reference.
-
-**Maintained by:** MaharaTech-ITI
+Each module folder contains its own `README.md` with detailed notes and images specific to that topic.
